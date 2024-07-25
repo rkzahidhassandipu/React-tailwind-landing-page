@@ -6,7 +6,7 @@ const Pricing = () => {
   return (
     <div className='mt-20'>
         <h2 className='text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wider'>Pricing</h2>
-        <div className='flex flex-wrap'>
+        <div className='flex flex-wrap w-[80%] m-auto'>
             {
                 pricingOptions.map((Option, index) => (
                     <div key={index} className='w-full sm:w-1/3 lg:w-1/3 p-2'>
